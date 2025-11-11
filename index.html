@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coffe Shop</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+      <a href="index.html">
+         <img src="assets/logo_small.png" alt="">
+      </a>
+      <ul>
+         <li>
+            <a href="">Tous</a>
+         </li>
+         <li class="active">
+            <a href="">Cafés</a>
+         </li>
+         <li>
+            <a href="">Boissons froides</a>
+         </li>
+         <li>
+            <a href="">Pauses sucrées</a>
+         </li>
+      </ul>
+      <a href="">
+         <img src="assets/cart.svg" alt="icone cart">
+      </a>
+   </nav>
+   <header>
+      <div class="header-content">
+         <img class="logo-big" src="assets/logo_big.png" alt="logo coffe shop">
+         <div class="buttons-container">
+            <a class="button" href=""><img class="icon" src="assets/cart.svg" alt=""> Télécharger l'app</a>
+            <a class="button" href=""><img class="icon"src="assets/cart.svg" alt=""> Télécharger l'app</a>
+         </div>
+      </div>
+   </header>
+   <section id="boissons">
+      <h1>Les boissons du moment</h1>
+      <div class="cards-container">
+         <article class="card">
+            <img class="card-image" src="assets/capucino_vanille.png" alt="capuccino">
+            <p class="card-price">2.85€</p>
+            <h3 class="card-title">Le capuccino Vanille</h3>
+         </article>
+         <article class="card">
+            <img class="card-image" src="assets/chocolat_epice.png" alt="capuccino">
+            <p class="card-price">2.85€</p>
+            <h3 class="card-title">Le Café Épicé</h3>
+         </article>
+         <article id="cafe-noisette" class="card">
+            <img class="card-image" src="assets/cafe_noisette.png" alt="capuccino">
+            <p class="card-price">2.85€</p>
+            <h3 class="card-title">Le café Noisette</h3>
+         </article>
+      </div>
+   </section>
+   <section id="application">
+      <h1>Une boisson chaude dans la poche !</h1>
+      <div class="split-section">
+         <div class="left-side">
+            <img src="assets/mockup_ecran_smartphone.png" alt="">
+         </div>
+         <div class="right-side">
+            <h2>Disponible sur l'app store<br>et google play</h2>
+            <a class="button big" href="">
+               <svg class="icon" viewBox="0 0 110 135">
+                  <path d="M40.5229 72.4999L36.6167 80.3124H84.6867C86.4133 80.3124 87.8117 81.7108 87.8117 83.4374C87.8117 85.164 86.4133 86.5624 84.6867 86.5624H81.0929C82.5773 87.9218 83.5148 89.8671 83.5148 92.0312C83.5148 96.125 80.1867 99.4531 76.0929 99.4531C71.9991 99.4531 68.671 96.125 68.671 92.0312C68.671 89.8671 69.6085 87.9218 71.0929 86.5624H49.8429C51.3273 87.9218 52.2648 89.8671 52.2648 92.0312C52.2648 96.125 48.9367 99.4531 44.8429 99.4531C40.7491 99.4531 37.421 96.125 37.421 92.0312C37.421 89.8671 38.3585 87.9218 39.8429 86.5624H36.3195C34.2023 86.5624 32.2726 85.4843 31.1554 83.6874C30.046 81.8827 29.9445 79.6796 30.8898 77.789L34.5148 70.539L24.3738 25.625H17.4988C15.7722 25.625 14.3738 24.2266 14.3738 22.5C14.3738 20.7734 15.7722 19.375 17.4988 19.375H26.8738C28.3347 19.375 29.6004 20.3828 29.9207 21.8125L32.8973 35.0005H92.4993C92.9758 35.0005 93.4212 35.2193 93.7181 35.5864C94.015 35.9614 94.1243 36.4458 94.0228 36.9067L86.2103 71.2817C86.0462 71.9927 85.4134 72.5005 84.6869 72.5005L40.5229 72.4999Z"/>
+                  </svg> 
+                  Télécharger</a>
+            <a class="button big" href="">
+               <svg class="icon" viewBox="0 0 110 135">
+                  <path d="M40.5229 72.4999L36.6167 80.3124H84.6867C86.4133 80.3124 87.8117 81.7108 87.8117 83.4374C87.8117 85.164 86.4133 86.5624 84.6867 86.5624H81.0929C82.5773 87.9218 83.5148 89.8671 83.5148 92.0312C83.5148 96.125 80.1867 99.4531 76.0929 99.4531C71.9991 99.4531 68.671 96.125 68.671 92.0312C68.671 89.8671 69.6085 87.9218 71.0929 86.5624H49.8429C51.3273 87.9218 52.2648 89.8671 52.2648 92.0312C52.2648 96.125 48.9367 99.4531 44.8429 99.4531C40.7491 99.4531 37.421 96.125 37.421 92.0312C37.421 89.8671 38.3585 87.9218 39.8429 86.5624H36.3195C34.2023 86.5624 32.2726 85.4843 31.1554 83.6874C30.046 81.8827 29.9445 79.6796 30.8898 77.789L34.5148 70.539L24.3738 25.625H17.4988C15.7722 25.625 14.3738 24.2266 14.3738 22.5C14.3738 20.7734 15.7722 19.375 17.4988 19.375H26.8738C28.3347 19.375 29.6004 20.3828 29.9207 21.8125L32.8973 35.0005H92.4993C92.9758 35.0005 93.4212 35.2193 93.7181 35.5864C94.015 35.9614 94.1243 36.4458 94.0228 36.9067L86.2103 71.2817C86.0462 71.9927 85.4134 72.5005 84.6869 72.5005L40.5229 72.4999Z"/>
+                  </svg> 
+                  Télécharger</a>
+         </div>
+      </div>
+
+   </section>
+   <footer>
+      <div class="top-side">
+         <h1>Suivez-nous sur instagram : <a href="instagram.com">@coffee_shop🔵</a></h1>
+      </div>
+      <div class="bottom-side">
+         <div class="left-side">
+            <h4>coffee_shop</h4>
+            <p>Une boisson en poche !</p>
+            <div class="buttons-container">
+               <a class="button small" href=""><img class="icon" src="assets/cart.svg" alt=""> Télécharger</a>
+               <a class="button small" href=""><img class="icon"src="assets/cart.svg" alt=""> Télécharger</a>
+            </div>
+         </div>
+         <div class="right-side">
+            <div class="column">
+               <h4>À propos</h4>
+               <ul>
+                  <li>
+                     <a href="">Notre mission</a>
+                  </li>
+                  <li>
+                     <a href="">Blog</a>
+                  </li>
+                  <li>
+                     <a href="">Besoin d'aide ?</a>
+                  </li>
+                  <li>
+                     <a href="">Plan de site</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="column">
+               <h4>L'arrière cuisine</h4>
+               <ul>
+                  <li>
+                     <a href="">Devenir partenaire</a>
+                  </li>
+                  <li>
+                     <a href="">Recrutement</a>
+                  </li>
+                  <li>
+                     <a href="">Presse</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="column">
+               <h4>Informations légales</h4>
+               <ul>
+                  <li>
+                     <a href="">Condition générale</a>
+                  </li>
+                  <li>
+                     <a href="">Mentions légales</a>
+                  </li>
+                  <li>
+                     <a href="">Charte cookies</a>
+                  </li>
+                  <li>
+                     <a href="">Gestion des cookies</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+</body>
+</html>

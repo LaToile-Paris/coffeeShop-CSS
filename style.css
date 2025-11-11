@@ -1,0 +1,240 @@
+/* GENERAL */
+body{
+   margin: 0;
+   font-family: 'arial', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+
+h1, h2, h3, h4, p{
+   margin: 0;
+}
+
+nav{
+   background: #FC9374;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px 32px;
+}
+
+nav a img{
+   height: 60px;
+   width: 40px;
+   object-fit: contain;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 16px;
+   list-style: none;
+   width: 60%;
+   padding: 0;
+   margin: 0;
+}
+
+nav a{
+   color: rgb(59, 59, 59);
+   white-space: nowrap;
+}
+
+nav a:hover{
+   color: black;
+   /* font-weight: bold; */
+}
+
+.active{
+   font-weight: bold;
+}
+
+/* HEADER */ 
+
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("assets/background-homepage.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 88vh;
+}
+
+.header-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 32px;
+}
+
+.logo-big{
+   height: 300px;
+}
+
+.buttons-container{
+   display: flex;
+   gap: 16px;
+}
+
+.button{
+   background: #FC9374;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: fit-content;
+   height: fit-content;
+   border-radius: 8px;
+   padding: 4px 8px;
+   padding-right: 14px;
+   color: white;
+   white-space: nowrap;
+}
+
+.button .icon{
+   width: 32px;
+   height: 32px;
+   object-fit: contain;
+}
+
+/* Boissons */ 
+
+#boissons{
+   background: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 32px;
+}
+
+#boissons h1{
+   color: #FC9374;
+}
+
+.cards-container{
+   display: flex;
+   gap: 16px;
+   align-items: center;
+   justify-content: center;
+}
+
+.card{
+   background: #fff4f1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+   padding: 32px;
+   border-radius: 16px;
+}
+
+.card p, .card h3{
+   margin: 0;
+}
+
+.card-image{
+   width: 300px;
+   height: 300px;
+}
+
+#cafe-noisette .card-image{
+   transform: scale(.8);
+}
+
+/* Applications */ 
+
+#application{
+   background: #FC9374;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 32px;
+}
+
+#application h2{
+   text-align: center;
+}
+
+.split-section{
+   display: flex;
+   gap: 16px;
+   width: 100%;
+}
+
+.left-side, .right-side{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+}
+
+.button.big{
+   background: white;
+   color: #FC9374;
+   font-size: 24px;
+}
+
+.button.big .icon{
+   width: 64px;
+   height: 64px;
+   fill: #FC9374;
+}
+
+/* FOOTER */
+footer{
+   display: flex;
+   flex-direction: column;
+}
+
+footer .top-side{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 64px;
+}
+
+footer .top-side a{
+   color: #FC9374;
+}
+
+footer .bottom-side{
+   background: #fff4f1;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 32px;
+}
+
+.bottom-side .left-side{
+   gap: 8px;
+   align-items: flex-start;
+}
+
+.bottom-side .right-side{
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-around;
+   gap: 32px;
+}
+
+.bottom-side .right-side h4{
+   color: #FC9374;
+}
+
+.bottom-side .right-side ul{
+   list-style: circle;
+   padding-left: 16px;
+}
+
+.bottom-side .right-side a{
+   color: black;
+}
